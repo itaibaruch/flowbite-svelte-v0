@@ -24,6 +24,9 @@ const config = {
   },
   define: {
     __VERSION__: JSON.stringify(pkg.version)
+  },
+  preview: {
+    allowedHosts: 'all'
   }
 };
 
