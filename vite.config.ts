@@ -26,7 +26,7 @@ const config = {
     __VERSION__: JSON.stringify(pkg.version)
   },
   preview: {
-    allowedHosts: 'all'
+    allowedHosts: true
   }
 };
 
