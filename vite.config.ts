@@ -2,7 +2,6 @@ import { sveltekit } from '@sveltejs/kit/vite';
 import path from 'path';
 import examples from 'mdsvexamples/vite';
 import pkg from './package.json' with { type: 'json' };
-import blocksPackage from './node_modules/flowbite-svelte-blocks/package.json' with { type: 'json' };
 
 /** @type {import('vite').UserConfig} */
 const config = {
