@@ -13,6 +13,7 @@
   "homepage": "https://flowbite-svelte.com/",
   "license": "MIT",
   "scripts": {
+    "start": "node build",
     "dev": "vite dev",
     "build": "vite build && npm run package",
     "preview": "vite preview",
