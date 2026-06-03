@@ -26,6 +26,9 @@ const config = {
     __VERSION__: JSON.stringify(pkg.version)
   },
   preview: {
+    host: true,
+    port: 4173,
+    strictPort: false,
     allowedHosts: true
   }
 };
